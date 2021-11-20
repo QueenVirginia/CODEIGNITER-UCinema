@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('img/cinema.jpg');
+}
+
+.display-2{
+	font-family: 'Lobster', cursive;
+	color:#ff0000;
+	text-shadow: 5px 5px 1px black;
+	position: relative;
+	transition: width 2s, height 2s, transform 1s;
+	font-size: 110px;
+}
+
+.display-2:hover {
+	transform: scale(1.1,1.1);
+}
+
+.display-4{
+	font-family: 'Bellota', cursive;
+	color: white;
+}
+
+form h1{
+	font-family: 'Lobster', cursive;
+}
+
+button{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
